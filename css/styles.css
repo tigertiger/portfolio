@@ -61,19 +61,6 @@ body {
   padding: 0% 0% 0% 5%;
 }
 
-.portrait {
-  width:200px;
-  background-image: url(/img/ring-inner1b.png);
-  background-repeat:no-repeat;
-  margin: auto;
-}
-
-.portrait:hover {
-  background-image: url(/img/ring-inner2.png);
-  background-repeat:no-repeat;
-  margin: auto;
-}
-
 .projects {
   display:inline-block;
 }
@@ -84,6 +71,19 @@ body {
   text-align: center;
   padding: 30px 0px;
 }
+
+.portrait {
+  width:200px;
+  /* background-image: url(./img/ring-inner1b.png);
+  background-repeat:no-repeat; */
+  margin: auto;
+}
+
+/* .portrait:hover {
+  background-image: url(./img/ring-inner2.png);
+  background-repeat:no-repeat;
+  margin: auto;
+} */
 
 .projects a {
   text-decoration: none;
