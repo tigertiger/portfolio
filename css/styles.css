@@ -4,16 +4,39 @@ body {
   font-family: 'Courier New', Courier, monospace;
 }
 
-/* .intro img {
-  width:200px;
-  border-radius: 100px;
-} */
+.intro {
+text-align: center;
+margin:auto;
+}
+
+.intro h1 {
+text-transform: uppercase;
+font-weight: 500;
+font-size: 50pt;
+}
+
+.intro h2 {
+  text-transform: lowercase;
+}
+
+.intro h3 {
+  text-transform: lowercase;
+}
+
+.intro img {
+  width:101%;
+  margin:auto;
+}
 
 .portrait {
   width:200px;
-  background-image: url(/img/ring-inner1.png)
+  background-image: url(/img/ring-inner1.png);
+  background-repeat:no-repeat;
+  margin: auto;
 }
 
 .portrait:hover {
-  background-image: url(/img/ring-inner2.png)
+  background-image: url(/img/ring-inner2.png);
+  background-repeat:no-repeat;
+  margin: auto;
 }
