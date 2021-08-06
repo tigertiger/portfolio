@@ -16,6 +16,7 @@ body {
   line-height:0px;
   padding:80px 0px 10px 0px;
   box-sizing: border-box;
+  animation-duration:2s;
 }
 
 .intro h2 {
@@ -42,7 +43,7 @@ body {
   text-transform: uppercase;
   font-weight: 500;
   font-size: 30pt;
-  padding: 0% 0% 0% 1.5%;
+  padding: 2% 0% 2% 1.5%;
   }
 
 .backButton a {
@@ -191,4 +192,15 @@ h3 {
   font-size:1.17em;
   font-weight:bolder;
   padding: 20px 0px;
+}
+
+.wip {
+  float:right;
+  margin:40px 20px 0px 0px;
+}
+
+.wip h2 {
+  animation: hinge;
+  animation-duration: 2s;
+  font-size:15pt;
 }
