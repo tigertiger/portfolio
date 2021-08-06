@@ -48,6 +48,15 @@ font-size: 50pt;
   padding: 30px 0px;
 }
 
+.projects a {
+  text-decoration: none;
+  color:rgb(171, 207, 193);
+}
+
+.projects li {
+  list-style-image: url(/img/bullet.png);
+}
+
 .box {
 width: 70%;
 margin:auto;
@@ -60,4 +69,12 @@ margin:auto;
   padding: 0% 10px;
   margin: 0% 1%;
   background-color: #3c4043;
+}
+
+.column li {
+  line-height: 20pt;
+}
+
+.oblique {
+  font-style: oblique;
 }
