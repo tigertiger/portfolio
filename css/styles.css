@@ -102,6 +102,19 @@ margin:auto;
 
 .column li {
   line-height: 20pt;
+  padding-bottom:10pt;
+}
+
+.descrip {
+  font-size: 9pt;
+  line-height:10pt;
+}
+
+.descrip2 {
+  font-size: 9pt;
+  line-height:10pt;
+  margin-top:0px;
+  width:500px;
 }
 
 .oblique {
