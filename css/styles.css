@@ -13,14 +13,21 @@ margin:auto;
 text-transform: uppercase;
 font-weight: 500;
 font-size: 50pt;
+line-height:0px;
+padding-top:40px;
 }
 
 .intro h2 {
   text-transform: lowercase;
+  line-height: 0px;
+  padding-bottom:40px;
 }
 
 .intro h3 {
   text-transform: lowercase;
+  line-height: 0px;
+  margin-top:-5px;
+  font-weight: 500;
 }
 
 .intro img {
@@ -52,7 +59,7 @@ font-size: 50pt;
 
 .portrait {
   width:200px;
-  background-image: url(/img/ring-inner1.png);
+  background-image: url(/img/ring-inner1b.png);
   background-repeat:no-repeat;
   margin: auto;
 }
@@ -75,7 +82,7 @@ font-size: 50pt;
   color:rgb(171, 207, 193);
 }
 
-.projects li {
+.projects ul li {
   list-style-image: url(/img/bullet.png);
 }
 
@@ -99,4 +106,42 @@ margin:auto;
 
 .oblique {
   font-style: oblique;
+}
+
+.highlight {
+  background-color: yellowgreen;
+  color:#1b191e;
+}
+
+.pgraph {
+  width:70%;
+  margin:auto;
+  padding-bottom:20px;
+  text-align:justify;
+}
+
+.pgraphEmph {
+  width:70%;
+  margin:auto;
+  padding-top:20px;
+  text-align:center;
+  font-style: italic;
+  color:yellowgreen;
+}
+
+.contact {
+  width:50%;
+  margin:auto;
+  padding:20px 0px;
+  font-weight: bold;
+}
+
+.contact a {
+  text-decoration: none;
+  color:ivory;
+}
+
+.contact a:hover {
+  font-weight:100;
+  color:yellowgreen;
 }
