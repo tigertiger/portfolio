@@ -28,6 +28,15 @@ font-size: 50pt;
   margin:auto;
 }
 
+.introLow {
+  text-align: center;
+  margin:auto 15%;
+  display:inline-block;
+  box-sizing: border-box;
+  width:70%;
+  padding: 50px 0px 0px 0px;
+  }
+
 .intro2 h1 {
   text-transform: uppercase;
   font-weight: 500;
