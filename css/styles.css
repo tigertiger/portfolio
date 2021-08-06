@@ -82,6 +82,12 @@ padding-top:40px;
   color:rgb(171, 207, 193);
 }
 
+.projects a:hover {
+  text-decoration:underline;
+  color:ivory;
+  font-weight:bold;
+}
+
 .projects ul li {
   list-style-image: url(/img/bullet.png);
 }
@@ -115,10 +121,6 @@ margin:auto;
   line-height:10pt;
   margin-top:0px;
   width:500px;
-}
-
-.oblique {
-  font-style: oblique;
 }
 
 .highlight {
@@ -157,4 +159,26 @@ margin:auto;
 .contact a:hover {
   font-weight:100;
   color:yellowgreen;
+}
+
+.buttonHolder {
+  margin-left:15%;
+  padding: 20px 0px;
+}
+
+.button {
+  background-color:rgb(171, 207, 193);
+  color:#1b191e;
+  font-weight:bold;
+  padding:15px 22px;
+  text-align:center;
+  text-decoration:none;
+  display:inline-block;
+  font-size:18px;
+  margin:4px 2px;
+  transition-duration: 0.8s;
+}
+
+.button:hover {
+  background-color:ivory;
 }
