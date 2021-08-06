@@ -162,6 +162,7 @@ body {
 
 .projects2 ul li {
   list-style-image: url(/img/bullet.png);
+  padding-bottom:10pt;
 }
 
 .col-4 {
