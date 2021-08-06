@@ -1,0 +1,19 @@
+body {
+  background-color: #1b191e;
+  color: ivory;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* .intro img {
+  width:200px;
+  border-radius: 100px;
+} */
+
+.portrait {
+  width:200px;
+  background-image: url(/img/ring-inner1.png)
+}
+
+.portrait:hover {
+  background-image: url(/img/ring-inner2.png)
+}
