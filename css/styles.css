@@ -63,13 +63,13 @@ body {
 
 .portrait {
   width:200px;
-  background-image: url(https://imgshare.io/images/2021/08/06/ring-inner2.png);
+  background-image: url(/img/ring-inner1b.png);
   background-repeat:no-repeat;
   margin: auto;
 }
 
 .portrait:hover {
-  background-image: url(https://imgshare.io/images/2021/08/06/ring-inner2.png);
+  background-image: url(/img/ring-inner2.png);
   background-repeat:no-repeat;
   margin: auto;
 }
