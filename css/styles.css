@@ -74,6 +74,9 @@ body {
   margin: auto;
 }
 
+.projects {
+  display:inline-block;
+}
 .projects h1 {
   font-size:2em;
   text-transform: uppercase;
@@ -133,6 +136,39 @@ body {
   color:#1b191e;
 }
 
+.projects2 h1 {
+  font-size:2em;
+  text-transform: uppercase;
+  font-weight:500;
+  text-align: center;
+  line-height:5px;
+  margin: 100px 0px 0px 0px;
+}
+
+.projects2 h3 {
+  text-align:center;
+}
+
+.projects2 a {
+  text-decoration: none;
+  color:rgb(171, 207, 193);
+}
+
+.projects2 a:hover {
+  text-decoration:underline;
+  color:ivory;
+  font-weight:bold;
+}
+
+.projects2 ul li {
+  list-style-image: url(/img/bullet.png);
+}
+
+.col-4 {
+  background-color: #3c4043;
+  border: 10px solid #1b191e;
+}
+
 .pgraph {
   width:70%;
   margin:auto;
@@ -186,6 +222,8 @@ body {
 
 .button:hover {
   background-color:ivory;
+  text-decoration: none;
+  color:#1b191e;
 }
 
 h3 {
@@ -201,6 +239,6 @@ h3 {
 
 .wip h2 {
   animation: hinge;
-  animation-duration: 2s;
+  animation-duration: 5s;
   font-size:15pt;
 }
