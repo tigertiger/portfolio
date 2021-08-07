@@ -74,16 +74,16 @@ body {
 
 .portrait {
   width:200px;
-  /* background-image: url(./img/ring-inner1b.png);
-  background-repeat:no-repeat; */
+  background-image: url(../img/ring-inner1b.png);
+  background-repeat:no-repeat;
   margin: auto;
 }
 
-/* .portrait:hover {
-  background-image: url(./img/ring-inner2.png);
+.portrait:hover {
+  background-image: url(../img/ring-inner2.png);
   background-repeat:no-repeat;
   margin: auto;
-} */
+}
 
 .projects a {
   text-decoration: none;
