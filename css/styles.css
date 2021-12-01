@@ -4,6 +4,11 @@ body {
   font-family: 'Courier New', Courier, monospace;
 }
 
+.container {
+  display:flex;
+  flex-wrap:wrap;
+}
+
 .intro {
   text-align: center;
   margin:auto;
