@@ -4,11 +4,6 @@ body {
   font-family: 'Courier New', Courier, monospace;
 }
 
-.container {
-  display:flex;
-  flex-wrap:wrap;
-}
-
 .intro {
   text-align: center;
   margin:auto;
@@ -66,62 +61,9 @@ body {
   padding: 0% 0% 0% 5%;
 }
 
-.projects {
-  display:inline-block;
-}
-.projects h1 {
-  font-size:2em;
-  text-transform: uppercase;
-  font-weight:500;
-  text-align: center;
-  padding: 30px 0px;
-}
-
 .portrait {
   width:200px;
-  background-image: url(../img/ring-inner1b.png);
-  background-repeat:no-repeat;
   margin: auto;
-}
-
-.portrait:hover {
-  background-image: url(../img/ring-inner2.png);
-  background-repeat:no-repeat;
-  margin: auto;
-}
-
-.projects a {
-  text-decoration: none;
-  color:rgb(171, 207, 193);
-}
-
-.projects a:hover {
-  text-decoration:underline;
-  color:ivory;
-  font-weight:bold;
-}
-
-.projects ul li {
-  list-style-image: url(/img/bullet.png);
-}
-
-.box {
-  width: 70%;
-  margin:auto;
-}
-
-.column {
-  width: 30%;
-  float: left;
-  box-sizing: border-box;
-  padding: 0% 10px 10px 0%;
-  margin: 0% 1% 2% 2%;
-  background-color: #3c4043;
-}
-
-.column li {
-  line-height: 20pt;
-  padding-bottom:10pt;
 }
 
 .descrip {
@@ -139,40 +81,6 @@ body {
 .highlight {
   background-color: yellowgreen;
   color:#1b191e;
-}
-
-.projects2 h1 {
-  font-size:2em;
-  text-transform: uppercase;
-  font-weight:500;
-  text-align: center;
-  line-height:5px;
-  margin: 100px 0px 0px 0px;
-}
-
-.projects2 h3 {
-  text-align:center;
-}
-
-.projects2 a {
-  text-decoration: none;
-  color:rgb(171, 207, 193);
-}
-
-.projects2 a:hover {
-  text-decoration:underline;
-  color:ivory;
-  font-weight:bold;
-}
-
-.projects2 ul li {
-  list-style-image: url(/img/bullet.png);
-  padding-bottom:10pt;
-}
-
-.col-4 {
-  background-color: #3c4043;
-  border: 10px solid #1b191e;
 }
 
 .pgraph {
@@ -247,4 +155,22 @@ h3 {
   animation: hinge;
   animation-duration: 5s;
   font-size:15pt;
+}
+
+#projectsHeader {
+  margin: 5% auto 2%;
+  text-align:center;
+}
+
+#projectsHolder {
+  width:90%;
+  margin:0 auto;
+  display:grid;
+  grid-gap:30px;
+  grid-template-areas:'main';
+  text-align:center;
+}
+
+.projects {
+margin: 0 auto;
 }
