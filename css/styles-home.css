@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+3D&display=swap');
+
+#background-video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.overlay {
+  height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    background: green;
+    opacity: 0.7;
+}
+
+body {
+  /* background: url(/img/ladybug.00_00_10_01.Still001.png) no-repeat center center fixed;  */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: #00300a;
+  color: ivory;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#homeHeader {
+  margin-top:30vh;
+}
+
+.intro {
+  text-align: center;
+  margin:auto;
+  text-shadow: 4px 4px 8px #000000;
+  font-family: 'Rock 3D', cursive;
+}
+
+.intro h1 {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 90pt;
+  line-height:0px;
+  padding:80px 0px 10px 0px;
+  box-sizing: border-box;
+  /* animation-duration:2s; */
+}
+
+.intro h2 {
+  text-transform: lowercase;
+  /* line-height: 0px; */
+  padding-bottom:40px;
+  font-size:3em;
+  /* font-weight:bold; */
+  margin-top:-10px;
+}
+
+.intro h3 {
+  text-transform: lowercase;
+  font-weight: 500;
+  /* line-height:0px; */
+  font-size:2.5em;
+  margin-top:70px;
+}
+
+.intro img {
+  width:101%;
+  margin:auto;
+}
+
+.intro2 h1 {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 30pt;
+  padding: 2% 0% 2% 1.5%;
+  }
+
+.nav {
+  position:fixed;
+  right:0px;
+  top:10px;
+  width:600px;
+}
+
+.navChild {
+  padding:20px 20px 0 20px;
+}
+
+.navChild a {
+  color:#fff;
+  font-size: 18pt;
+  font-weight:bold;
+  text-transform: lowercase;
+}
+
+.navChild a:hover {
+  font-size:20pt;
+  text-decoration: none;
+}
+
+.contactIcons {
+  margin:auto;
+  display:grid;
+  grid-template-columns: auto auto auto;
+  grid-gap:0px;
+  width:300px;
+}
+
+.cIcon {
+  margin:auto;
+}
+
+.backButton a {
+  font-size: 15pt;
+  font-weight: bold;
+  text-decoration:none;
+  color:yellowgreen;
+  padding: 0% 0% 0% 5%;
+}
+
+.backButton a:hover {
+  font-weight: bold;
+  text-decoration:underline;
+  color:rgb(91, 122, 29);
+  padding: 0% 0% 0% 5%;
+}
+
+.portrait {
+  width:200px;
+  margin: auto;
+}
+
+.descrip {
+  font-size: 9pt;
+  line-height:10pt;
+}
+
+.descrip2 {
+  font-size: 9pt;
+  line-height:10pt;
+  margin-top:0px;
+  width:500px;
+}
+
+.highlight {
+  background-color: yellowgreen;
+  color:#1b191e;
+}
+
+.pgraph {
+  width:70%;
+  margin:auto;
+  padding-bottom:20px;
+  text-align:justify;
+}
+
+.pgraphEmph {
+  width:70%;
+  margin:auto;
+  padding-top:20px;
+  text-align:center;
+  font-style: italic;
+  color:yellowgreen;
+}
+
+.contact {
+  width:50%;
+  margin:auto;
+  padding:20px 0px;
+  font-weight: bold;
+}
+
+.contact a {
+  text-decoration: none;
+  color:ivory;
+}
+
+.contact a:hover {
+  font-weight:100;
+  color:yellowgreen;
+}
+
+.buttonHolder {
+  margin-left:15%;
+  padding: 20px 0px;
+}
+
+.button {
+  background-color:rgb(171, 207, 193);
+  color:#1b191e;
+  font-weight:bold;
+  padding:15px 22px;
+  text-align:center;
+  text-decoration:none;
+  display:inline-block;
+  font-size:18px;
+  margin:4px 2px;
+  transition-duration: 0.8s;
+}
+
+.button:hover {
+  background-color:ivory;
+  text-decoration: none;
+  color:#1b191e;
+}
+
+h3 {
+  font-size:1.17em;
+  font-weight:bolder;
+  padding: 20px 0px;
+}
+
+.wip {
+  float:right;
+  margin:40px 20px 0px 0px;
+}
+
+.wip h2 {
+  animation: hinge;
+  animation-duration: 5s;
+  font-size:15pt;
+}
+
+#projectsHeader {
+  margin: 5% auto 2%;
+  text-align:center;
+}
+
+#projectsHolder {
+  width:90%;
+  margin:0 auto;
+  display:grid;
+  grid-gap:30px;
+  grid-template-areas:'main';
+  text-align:center;
+}
+
+.projects {
+margin: 0 auto;
+}

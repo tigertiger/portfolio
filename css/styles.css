@@ -1,7 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+3D&display=swap');
+
 body {
-  background-color: #1b191e;
+  background: url(/img/ladyblur.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-blend-mode:multiply;
   color: ivory;
   font-family: 'Courier New', Courier, monospace;
+}
+
+#homeHeader {
+  margin-top:30vh;
 }
 
 .intro {
@@ -12,19 +23,20 @@ body {
 .intro h1 {
   text-transform: uppercase;
   font-weight: 500;
-  font-size: 50pt;
-  line-height:0px;
+  font-size: 70pt;
+  /* line-height:0px; */
   padding:80px 0px 10px 0px;
   box-sizing: border-box;
   animation-duration:2s;
+  font-family: 'Rock 3D', cursive;
 }
 
 .intro h2 {
   text-transform: lowercase;
-  line-height: 0px;
+  /* line-height: 0px; */
   padding-bottom:40px;
-  font-size:1.4em;
-  font-weight:bold;
+  font-size:1.8em;
+  /* font-weight:bold; */
   margin-top:-10px;
 }
 
@@ -32,6 +44,8 @@ body {
   text-transform: lowercase;
   font-weight: 500;
   line-height:0px;
+  font-size:1.5em;
+  margin-top:30px;
 }
 
 .intro img {
@@ -45,6 +59,41 @@ body {
   font-size: 30pt;
   padding: 2% 0% 2% 1.5%;
   }
+
+.nav {
+  position:fixed;
+  right:0px;
+  top:0px;
+  width:600px;
+}
+
+.navChild {
+  padding:20px 20px 0 20px;
+}
+
+.navChild a {
+  color:#fff;
+  font-size: 18pt;
+  text-transform: lowercase;
+  font-weight:bold;
+}
+
+.navChild a:hover {
+  font-size:20pt;
+  text-decoration: none;
+}
+
+.contactIcons {
+  margin:auto;
+  display:grid;
+  grid-template-columns: auto auto auto;
+  grid-gap:0px;
+  width:300px;
+}
+
+.cIcon {
+  margin:auto;
+}
 
 .backButton a {
   font-size: 15pt;
@@ -63,7 +112,7 @@ body {
 
 .portrait {
   width:200px;
-  margin: auto;
+  margin: 20px auto;
 }
 
 .descrip {
@@ -91,12 +140,11 @@ body {
 }
 
 .pgraphEmph {
-  width:70%;
   margin:auto;
   padding-top:20px;
   text-align:center;
   font-style: italic;
-  color:yellowgreen;
+  font-size:15pt;
 }
 
 .contact {
@@ -104,6 +152,7 @@ body {
   margin:auto;
   padding:20px 0px;
   font-weight: bold;
+  font-size:16pt;
 }
 
 .contact a {
